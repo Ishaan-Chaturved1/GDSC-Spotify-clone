@@ -1,0 +1,484 @@
+body
+{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+    overflow: hidden;
+}
+
+.main
+{
+    display: flex;
+    height: 100vh;
+    padding: 0.5rem;
+}
+.home{
+    size: 3px;
+}
+.sidebar
+{
+    background-color: black;
+    width: 300px;
+    border-radius: 1rem; 
+    margin-right: 0.5rem;
+    /* 1 rem is 16px */
+}
+
+.nav
+{
+    background-color: #121212;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+   /*  justify-content: center; */
+    height: 165px;
+    padding: 0.5rem 0.75rem;
+}
+
+.nav-option
+{
+    line-height: 2.5rem;
+    opacity: 0.7;
+    padding: 0.25rem 0.75rem;
+    display: flex; /* Align items horizontally within each option */
+   
+}
+.nav-option img {
+    size: 4px;
+    opacity: 1;
+}
+.nav-option:hover
+{
+    opacity: 1;
+}
+
+.nav-option a
+{
+    font-size: 1.5rem;
+}
+
+.nav-option a
+{
+    font-size: 1rem;
+}
+
+.main-content
+{
+    background-color: #121212;
+    flex: 1;
+    overflow: auto;
+    border-radius: 1rem;
+    height: 87%;
+    padding: 0 1.5rem;
+}
+
+.music-player
+{
+    background-color: black;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 72px;
+    display: flex;
+}
+
+a
+{
+    text-decoration: none;
+    color: white;
+}
+
+.options
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lib-option img
+{
+    height: 1.25rem;
+    width: 1.25rem;
+}
+
+.library
+{
+    border-radius: 1rem;
+    background-color: #121212;
+    height: 65%;   
+    margin-top: 0.5rem;
+    padding: 0.5rem 0.75rem;
+}
+
+
+
+.box
+{
+    height: 8.75rem;
+    border-radius: 1rem;
+    background-color: #232323;
+    margin: 0.5rem 0 0.5rem 0;
+    padding: 0.5rem 1.25rem;
+}
+.box-1
+{
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.box-2
+{
+    font-size: 0.8125rem;
+    font-weight: 400;
+    opacity: 0.7;
+}
+
+.cp{
+    border: none;
+    border-radius: 6.25rem;
+    padding: 0.25rem 1rem;
+    font-weight: 700;
+    height: 2rem;
+    width: 9rem;
+    cursor: pointer;
+
+}
+
+.cp:hover{
+background-color: rgb(255, 255, 255);
+transform: scale(1.2);
+}
+.bp{
+    border: none;
+    border-radius: 6.25rem;
+    padding: 0.25rem 1rem;
+    font-weight: 700;
+    height: 2rem;
+    width: 9rem;
+    cursor: pointer;
+
+}
+.bp:hover{
+    background-color: rgb(255, 255, 255);
+    transform: scale(1.2);
+    }
+
+.badge
+{
+    border: none;
+    border-radius: 6.25rem;
+    padding: 0.25rem 1rem;
+    font-weight: 700;
+    height: 3rem;
+    width: 7rem;
+    transform: scale(1.05);
+}
+.nav-item:hover{
+     transform: scale(1.1);
+    }
+
+.sticky-nav
+{
+    position: sticky;
+    top: 0;
+    
+    background-color: rgba(0, 0, 0, 0.361);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    z-index: 10;
+}
+
+
+
+
+.nav-item
+{
+    margin-right: 1rem;
+    font-size: 15px;
+}
+
+.dark
+{
+    background-color: #000000;
+    color: white;
+}
+
+@media(max-width:1000px)
+{
+    .hide
+    {
+        display: none;
+    }
+}
+
+.card
+{ 
+    background-color:  #121212;
+    width: 9.375rem;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin-top: -1rem;
+
+}
+.card:hover{
+    background-color: rgb(35, 35, 35);
+    transform: scale(1.05);
+    }
+  
+
+.card2
+{ 
+    background-color:  #121212;
+    width: 9.375rem;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+.card2:hover{
+    background-color: rgb(35, 35, 35);
+    transform: scale(1.05);
+    }
+  
+.h2{
+    padding-top: 0%;
+}
+.card-container
+{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0%;
+}
+
+.card-img
+{
+    width: 110%;
+    border-radius: 8rem;
+}
+.card2-img
+{
+    width: 110%;
+    
+}
+
+.card-title
+{
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.card-info
+{
+    font-size: 0.70rem;
+    
+}
+
+.card-info3
+{
+    font-size: 0.80rem;
+    color: #5a5858;
+    
+}
+.card3
+{ 
+    background-color:  #121212;
+    width: 9.375rem;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin-top: -1rem;
+}
+.card3{
+    cursor: pointer;
+}
+
+.card3:hover {
+    background-color: rgb(35, 35, 35);
+    transform: scale(1.05);
+}
+
+.footer
+{
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.line
+{
+    width: 90%;
+    height: 40%;
+    border-top: 1px solid white;
+    opacity: 0.4;
+}
+
+.album  
+{
+    width: 25%;
+}
+
+.player
+{
+    width: 50%;
+}
+
+.player-control-icon
+{
+    height: 1rem;
+    margin-right: 2rem;
+    opacity: 0.7;
+}
+
+.player-control-icon:hover
+{
+    opacity: 1;
+}
+
+.player-controls
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.player
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.progress-bar
+{
+    width: 100%;
+    appearance: none;
+}
+
+.progress-bar::-webkit-slider-runnable-track
+{
+    background-color: #ddd;
+    border-radius: 100px;
+    height: 0.25rem;
+}
+
+.progress-bar::-webkit-slider-thumb
+{
+    appearance: none;
+    height: 1rem;
+    width: 1rem;
+    background-color: #1bd760;
+    border-radius: 50%;
+    margin-top: -6px;
+}
+
+.playback-bar
+{
+    display: flex;
+    width:100%;
+    height: 20%;
+    margin-top: 0.5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.controls
+{
+    width: 25%;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+.controls img
+{
+    height: 1.5rem;
+    width: 1.5rem;
+    opacity: 0.7;
+}
+
+.controls img:hover
+{
+    opacity: 1;
+}
+
+.controls input
+{
+    width: 40%;
+}
+
+.album
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.a-img
+{
+    height: 3.5rem;
+    width: 3.5rem;
+}
+
+.ap-heading
+{
+    font-size: 0.875rem;
+    font-weight: 400;
+}
+
+.ap-info
+{
+    font-size: 0.6875rem;
+    font-weight: 400;
+}
+
+.album p
+{
+    margin: 0;
+}
+
+.a-icon
+{
+    opacity: 0.7;
+}
+
+.a-icon:hover
+{
+    opacity: 1;
+    height: 1.75rem;
+    width: 1.75rem;
+}
+
+.comp
+{
+    margin-right: 0.5rem;
+}
+
+
+
+.play-button {
+    width: 50px;
+    height: 50px;
+    background-color: #1DB954;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.play-button:hover {
+    transform: scale(1.1);
+}
+
+/* Styles for the play icon (you can use an SVG or an image) */
+.play-icon {
+    color: white;
+    font-size: 24px;
+}
